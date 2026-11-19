@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "id": "hero",
+    "src": "/uploads/hero-1794854129840.png",
+    "alt": "TODO: Hero film still — describe the frame",
+    "width": 1122,
+    "height": 1402
+  },
+  "services": [
+    {
+      "id": "photography",
+      "src": "/uploads/photography-1794855630187.jpg",
+      "alt": "TODO: Photography — describe this preview frame",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "reels",
+      "src": "/uploads/reels-1794921770225.jpg",
+      "alt": "TODO: Reels — describe this preview frame",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "films",
+      "src": "/uploads/films-1794921895937.jpg",
+      "alt": "TODO: Brand films — describe this preview frame",
+      "width": 7008,
+      "height": 4672
+    }
+  ],
+  "work": [
+    {
+      "id": "work-1",
+      "src": "/uploads/work-1794921909070.jpg",
+      "alt": "TODO: Homestay image 1 — describe the frame",
+      "width": 7008,
+      "height": 4672
+    },
+    {
+      "id": "work-2",
+      "src": "/uploads/work-1794921990849.jpg",
+      "alt": "TODO: Homestay image 2 — describe the frame",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "work-3",
+      "src": "/uploads/work-1794922100598.jpg",
+      "alt": "TODO: Homestay image 3 — describe the frame",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": "work-4",
+      "src": "/work/homestay-04.jpg",
+      "alt": "TODO: Homestay image 4 — describe the frame",
+      "width": 1400,
+      "height": 1700
+    },
+    {
+      "id": "work-5",
+      "src": "/work/homestay-05.jpg",
+      "alt": "TODO: Homestay image 5 — describe the frame",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "id": "work-6",
+      "src": "/work/homestay-06.jpg",
+      "alt": "TODO: Homestay image 6 — describe the frame",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": "work-7",
+      "src": "/work/homestay-07.jpg",
+      "alt": "TODO: Homestay image 7 — describe the frame",
+      "width": 1500,
+      "height": 1300
+    },
+    {
+      "id": "work-8",
+      "src": "/work/homestay-08.jpg",
+      "alt": "TODO: Homestay image 8 — describe the frame",
+      "width": 1200,
+      "height": 1680
+    }
+  ],
+  "founder": {
+    "id": "founder",
+    "src": "/uploads/founder-1794853615198.png",
+    "alt": "TODO: Portrait of the founder",
+    "width": 1254,
+    "height": 1254
+  },
+  "showreel": {
+    "src": "/uploads/showreel-1795060587463.mp4"
+  }
+}
