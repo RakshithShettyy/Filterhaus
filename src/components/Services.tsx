@@ -32,17 +32,10 @@ export function Services({ photos }: { photos: { id: string; src: string; alt: s
                   <Image src={photo.src} alt={photo.alt} fill sizes="(min-width: 1024px) 28vw, 100vw" className="object-cover" />
                 </div>
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
-                  <div className="flex items-center justify-between gap-3">
-                    <h3 className="flex min-w-0 items-center gap-3 font-display text-[clamp(1.8rem,3vw,2.4rem)] font-medium leading-none tracking-[-0.03em] text-ink">
-                      <span className="shrink-0 text-gold">{item.index}</span>
-                      <span>{item.title}</span>
-                    </h3>
-                    {"badge" in item && item.badge ? (
-                      <span className="shrink-0 border border-gold px-2 py-1 text-[0.62rem] font-medium uppercase tracking-[0.16em] text-gold-dark">
-                        {item.badge}
-                      </span>
-                    ) : null}
-                  </div>
+                  <h3 className="flex min-w-0 items-center gap-3 font-display text-[clamp(1.8rem,3vw,2.4rem)] font-medium leading-none tracking-[-0.03em] text-ink">
+                    <span className="shrink-0 text-gold">{item.index}</span>
+                    <span>{item.title}</span>
+                  </h3>
                   <p className="mt-4 text-base leading-relaxed text-ink">{item.sentence}</p>
                 </div>
               </li>

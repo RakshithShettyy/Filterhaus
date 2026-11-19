@@ -553,7 +553,8 @@ export function waLink(extraText?: string) {
   const message = extraText
     ? `${site.contact.whatsappMessage}\n\n${extraText}`
     : site.contact.whatsappMessage;
-  return `${site.contact.whatsappUrl}?text=${encodeURIComponent(message)}`;
+  const number = site.contact.phoneTel.replace(/\D/g, "");
+  return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
 export function telLink() {
